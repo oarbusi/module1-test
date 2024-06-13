@@ -6,8 +6,8 @@ on:
       send_notification:
         type: boolean
         default: false
-  schedule:
-    - cron: '*/5 * * * *'
+  # schedule:
+  #   - cron: '*/5 * * * *'
 
 jobs:
   test:
